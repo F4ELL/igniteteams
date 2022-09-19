@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from '@react-navigation/native';
 
-import { groupCreate } from '@storage/group/GroupCreate';
+import { groupCreate } from '@storage/group/groupCreate';
 import { Alert } from 'react-native';
 
 import { Container, Content, Icon } from "./styles";
