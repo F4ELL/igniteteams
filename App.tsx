@@ -5,9 +5,8 @@ import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/
 
 import theme from './src/theme';
 
-import { Groups } from '@screens/Groups';
+import { Players } from '@screens/Players';
 import { Loading } from '@components/Loading';
-import { NewGroup } from '@screens/NewGroup';
 
 export default function App() {
   // usando um valor booleano para verificar se as fontes foram carregadas 
@@ -20,7 +19,7 @@ export default function App() {
         backgroundColor='transparent'
         translucent
       />
-      { fontsLoaded ? <Groups /> : <Loading /> }
+      { fontsLoaded ? <Players /> : <Loading /> }
     </ThemeProvider>
   );
 }
